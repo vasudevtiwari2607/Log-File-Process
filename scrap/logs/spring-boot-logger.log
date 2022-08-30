@@ -1,0 +1,36 @@
+2022-08-30 14:28:07,940 INFO org.springframework.boot.StartupInfoLogger [main] Starting ScrapApplication using Java 11.0.10 on RININ033 with PID 75103 (/Users/vasudev.tiwari/Documents/Workspace/scrap/target/classes started by vasudev.tiwari in /Users/vasudev.tiwari/Documents/Workspace/scrap)
+2022-08-30 14:28:07,943 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-08-30 14:28:07,944 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-30 14:28:08,671 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-30 14:28:08,743 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2022-08-30 14:28:09,670 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-08-30 14:28:09,684 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-30 14:28:09,685 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-30 14:28:09,686 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-30 14:28:09,814 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-30 14:28:09,814 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1782 ms
+2022-08-30 14:28:10,044 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-30 14:28:10,127 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-30 14:28:10,354 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-30 14:28:10,483 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-30 14:28:10,814 INFO jdk.internal.reflect.NativeMethodAccessorImpl [main] checkpointClose start
+2022-08-30 14:28:10,815 INFO jdk.internal.reflect.NativeMethodAccessorImpl [main] checkpointClose synched
+2022-08-30 14:28:10,822 INFO jdk.internal.reflect.NativeMethodAccessorImpl [main] checkpointClose script done
+2022-08-30 14:28:10,827 INFO jdk.internal.reflect.NativeMethodAccessorImpl [main] checkpointClose end
+2022-08-30 14:28:10,833 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2022-08-30 14:28:10,836 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-30 14:28:10,888 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2022-08-30 14:28:11,666 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-30 14:28:11,677 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-30 14:28:12,021 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-30 14:28:12,487 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-08-30 14:28:12,517 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/scrap'
+2022-08-30 14:28:12,527 INFO org.springframework.boot.StartupInfoLogger [main] Started ScrapApplication in 6.218 seconds (JVM running for 6.83)
+2022-08-30 14:29:47,335 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-30 14:29:47,336 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-08-30 14:29:47,338 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-08-30 14:29:47,416 INFO com.test.controller.LogController [http-nio-8080-exec-1] Going to rad file from file path 
+2022-08-30 14:29:47,417 INFO com.test.controller.LogController [http-nio-8080-exec-1]  Going to read file **** 
+2022-08-30 14:30:21,966 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-30 14:30:21,969 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-08-30 14:30:21,977 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
